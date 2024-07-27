@@ -155,6 +155,11 @@ body{
     align-items: center;
     gap: 20px;
 }
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .about-img img {
     max-width: 100%;
