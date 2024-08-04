@@ -21,6 +21,8 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: black;
+    /* box-shadow: 0 2px 4px rgba(242, 238, 238, 0.929); */
 }
 
 .navbar {
@@ -169,6 +171,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.about-text{
+    margin-right: 10px;
+}
 
 .section-title h2 {
     font-size: 36px;
@@ -190,6 +195,7 @@ body {
 
 .about-img img {
     max-width: 450px;
+    /* min-width: 450px; */
     /* margin: 10px; */
     height: 350px;
     opacity: 0;
@@ -501,7 +507,6 @@ body {
 /* Contact Page style ends */
 
 /* Experience Page Styles */
-/* Experience Page Styles */
 .experience {
     padding: 100px 10%;
     display: flex;
@@ -567,13 +572,17 @@ body {
 .timeline-date {
     font-size: 18px;
     font-weight: 600;
-    color: rgb(40, 137, 158);
+    /* color: rgb(40, 137, 158); */
+    color:#fff;
     margin-bottom: 10px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
 
+.timeline .timeline-item a{
+    color: rgb(40, 137, 158);
+}
 .timeline-content {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
