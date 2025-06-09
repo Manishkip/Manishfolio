@@ -836,6 +836,35 @@ body {
 
 /* Projects page style ends */
 
+/* Styling for resource list */
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resource-list li {
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resource-list a {
+    text-decoration: none;
+    color: #0e8dc8; /* dark gray */
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.resource-list a:hover {
+    background-color: #f0f0f0;
+    color: #007bff; /* soft blue on hover */
+}
+
+/* Resource Page style ends */
+
 /* Keyframes */
 @keyframes slideLeft {
     0% {
