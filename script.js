@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.location.pathname.includes("index.html") || window.location.pathname.includes("")) {
         // Initialize the Typed instance only if on index.html
         var typed = new Typed(".multiple-text", {
-            strings: ["Software Engineer", "Web Developer"],
-            typeSpeed: 100,
-            backSpeed: 100,
+            strings: ["Java Software Engineer", "Web Developer"],
+            typeSpeed: 110,
+            backSpeed: 110,
             backDelay: 1000,
             loop: true
         });
